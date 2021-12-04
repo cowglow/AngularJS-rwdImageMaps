@@ -13,9 +13,9 @@
 ---
 
 ```html
-	<img class="rwdimgmap" usemap="#YourMapName" />
-	or
-	<img rwdimgmap usemap="#YourMapName" />
+<img class="rwdimgmap" usemap="#YourMapName" />
+or
+<img rwdimgmap usemap="#YourMapName" />
 ```
 ```js
 angular.module('map', ['rwdImageMaps'])
@@ -31,7 +31,7 @@ Original jQuery Plugin
 http://mattstow.com/experiment/responsive-image-maps/rwd-image-maps.html
 
 AngularJS Directive
-http://www.cowglow.com/github/rwdImageMaps
+http://cowglow.github.io/AngularJS-rwdImageMaps/
 
 ---
 
