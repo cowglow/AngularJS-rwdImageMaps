@@ -6,7 +6,7 @@
 
 #### Usage:
 
-* If possible, add [correct, unitless](http://dev.w3.org/html5/markup/img.html) `width` and `height` attributes to your image map images. You can override these in CSS to make them responsive.
+* If possible, add [correct, unitless](https://dev.w3.org/html5/markup/img.html) `width` and `height` attributes to your image map images. You can override these in CSS to make them responsive.
 * Add a link to jQuery in your page, preferably at the bottom just before the closing `</body>`
 * Include AngularJS link and angular-rwdImageMaps.js
 
@@ -19,22 +19,22 @@ or
 ```
 ```js
 angular.module('map', ['rwdImageMaps'])
-	.controller('MapCtrl', function($scope){
-		$scope.myTrigger = function(arg){
-			alert(arg);
-		}
-	});
+  .controller('MapCtrl', function($scope){
+    $scope.myTrigger = function(arg){
+      alert(arg);
+    }
+  });
 ```
 
 #### Demo:
 Original jQuery Plugin
-http://mattstow.com/experiment/responsive-image-maps/rwd-image-maps.html
+https://mattstow.com/experiment/responsive-image-maps/rwd-image-maps.html
 
 AngularJS Directive
-http://cowglow.github.io/AngularJS-rwdImageMaps/
+https://cowglow.github.io/AngularJS-rwdImageMaps/
 
 ---
 
-Copyright (c) 2012 [Matt Stow](http://mattstow.com)  
+Copyright (c) 2012 [Matt Stow](https://mattstow.com)  
 Licensed under the MIT license *(see [LICENSE](https://github.com/stowball/jQuery-rwdImageMaps/blob/master/LICENSE) for details)*  
-Minified version created with Online YUI Compressor: http://www.refresh-sf.com/yui/
+Minified version created with Online YUI Compressor: https://refresh-sf.com/
